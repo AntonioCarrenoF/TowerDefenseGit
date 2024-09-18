@@ -2524,20 +2524,16 @@ PrefabInstance:
       value: character-2
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: d51f688787cc843009774f39d1367605, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: d51f688787cc843009774f39d1367605, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 6ac2d79fa5bda4b6183a2994dcd7a933, type: 2}
     - target: {fileID: 5866666021909216657, guid: d51f688787cc843009774f39d1367605, type: 3}
       propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
-        'mixamorig:LeftHandThumb2'\n\tTransform 'mixamorig:LeftHandIndex1'\n\tTransform
-        'mixamorig:RightHandRing2'\n\tTransform 'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform
-        'mixamorig:LeftHandThumb3'\n\tTransform 'mixamorig:RightArm'\n\tTransform
-        'mixamorig:LeftLeg'\n\tand more ...\n\tFrom animation clip 'zombie idle'\n\tFrom
-        animation clip 'zombie attack'\n\tFrom animation clip 'zombie run'\n\tFrom
-        animation clip 'zombie death'"
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3238,20 +3234,16 @@ PrefabInstance:
       value: character
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 918286f32d5024156b9f276e4e1a065d, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 918286f32d5024156b9f276e4e1a065d, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 6ac2d79fa5bda4b6183a2994dcd7a933, type: 2}
     - target: {fileID: 5866666021909216657, guid: 918286f32d5024156b9f276e4e1a065d, type: 3}
       propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
-        'mixamorig:LeftHandThumb2'\n\tTransform 'mixamorig:LeftHandIndex1'\n\tTransform
-        'mixamorig:LeftHandPinky2'\n\tTransform 'mixamorig:RightHandRing2'\n\tTransform
-        'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform 'mixamorig:LeftHandThumb3'\n\tTransform
-        'mixamorig:RightArm'\n\tand more ...\n\tFrom animation clip 'zombie idle'\n\tFrom
-        animation clip 'zombie attack'\n\tFrom animation clip 'zombie run'\n\tFrom
-        animation clip 'zombie death'"
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3642,20 +3634,16 @@ PrefabInstance:
       value: character-3
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 55a6375ab409c451d877ec1b06c5530b, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 55a6375ab409c451d877ec1b06c5530b, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 6ac2d79fa5bda4b6183a2994dcd7a933, type: 2}
     - target: {fileID: 5866666021909216657, guid: 55a6375ab409c451d877ec1b06c5530b, type: 3}
       propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
-        'mixamorig:LeftHandThumb2'\n\tTransform 'mixamorig:LeftHandIndex1'\n\tTransform
-        'mixamorig:LeftHandPinky2'\n\tTransform 'mixamorig:RightHandRing2'\n\tTransform
-        'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform 'mixamorig:LeftHandThumb3'\n\tTransform
-        'mixamorig:RightArm'\n\tand more ...\n\tFrom animation clip 'zombie idle'\n\tFrom
-        animation clip 'zombie attack'\n\tFrom animation clip 'zombie run'\n\tFrom
-        animation clip 'zombie death'"
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3821,23 +3809,16 @@ PrefabInstance:
       value: character-4
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 406dde93a8ed344e48a8b0b691740d51, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 406dde93a8ed344e48a8b0b691740d51, type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: c857214b7dbca4f01bd1a7bf0f94c718, type: 2}
     - target: {fileID: 5866666021909216657, guid: 406dde93a8ed344e48a8b0b691740d51, type: 3}
       propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'mixamorig:Hips'\n\tTransform 'mixamorig:LeftFoot'\n\tTransform
-        'mixamorig:LeftHandThumb2'\n\tTransform 'mixamorig:LeftHandIndex1'\n\tTransform
-        'mixamorig:LeftHandPinky2'\n\tTransform 'mixamorig:RightHandRing2'\n\tTransform
-        'mixamorig:Spine1'\n\tTransform 'mixamorig:LeftToeBase'\n\tTransform 'mixamorig:LeftHandThumb3'\n\tTransform
-        'mixamorig:RightArm'\n\tand more ...\n\tFrom animation clip 'zombie idle'\n\tFrom
-        animation clip 'zombie neck bite'\n\tFrom animation clip 'zombie run'\n\tFrom
-        animation clip 'zombie scream'\n\tFrom animation clip 'zombie walk'\n\tFrom
-        animation clip 'running crawl'\n\tFrom animation clip 'zombie attack'\n\tFrom
-        animation clip 'zombie biting 2'\n\tFrom animation clip 'zombie biting'\n\tFrom
-        animation clip 'zombie crawl'\n\tand more ..."
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
