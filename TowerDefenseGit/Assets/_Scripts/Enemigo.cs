@@ -9,6 +9,16 @@ public class Enemigo : MonoBehaviour
     public int vida = 50;
     public Animator anim;
 
+    private void OnDisable()
+    {
+        
+    }
+
+    private void OnEnable()
+    {
+        objetivo = GameObject.Find("Objetivo");
+    }
+
     // Start is called before the first frame update
     void Start()
     {
