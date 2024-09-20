@@ -48,8 +48,20 @@ public class AdministradorToques : MonoBehaviour
         RaycastHit hit;
         if(Physics.Raycast(rayoPantalla, out hit, Mathf.Infinity))
         {
-
+            Debug.Log(hit.transform.gameObject.name);
+            if(hit.transform.gameObject.tag=="Plataforma")
+            {
+                Debug.Log("Plataforma Tocada");
+                if(EnPlataformaTocada != null)
+                {
+                    EnPlataformaTocada(hit.transform.gameObject);
+                }
+            }
         }
-;      
+        else
+        {
+            Debug.Log("No hubo un hit del raycast");
+        }
+      
     }
 }
