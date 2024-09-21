@@ -6,6 +6,10 @@ public class Objetivo : MonoBehaviour
 {
 
     public int vida = 100;
+
+    public delegate void ObjetivoDestruido();
+    public event ObjetivoDestruido EnObjetivoDestruido;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +22,11 @@ public class Objetivo : MonoBehaviour
     {
         if (vida <= 0)
         {
+            if (EnObjetivoDestruido != null)
+            {
+                EnObjetivoDestruido();
+            }
+
             Destroy(this.gameObject);
         }
 

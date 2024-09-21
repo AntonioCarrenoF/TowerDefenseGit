@@ -9,6 +9,16 @@ public class Boss : MonoBehaviour
     public int vida = 100;
     public Animator anim;
 
+    private void OnEnable()
+    {
+        objetivo = GameObject.Find("Objetivo");
+    }
+
+    private void OnDisable()
+    {
+        
+    }
+
     // Start is called before the first frame update
     void Start()
     {
