@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,17 +8,67 @@ public class AdministradorUI : MonoBehaviour
 {
     public GameObject canvasPrincipal;
     public GameObject menuGameOver;
+    public GameObject menuOlaGanada;
+    public GameObject mensajeFinOla;
     public SpawnerEnemigos referenciaSpawner;
     public Objetivo referenciaObjetivo;
+    public AdminJuego referenciaAdminJuego;
+    public TMPro.TMP_Text textoRecursos;
+    public TMPro.TMP_Text textoOleada;
+    public TMPro.TMP_Text textoEnemigos;
+    public TMPro.TMP_Text textoJefes;
+
 
     private void OnEnable()
     {
         referenciaObjetivo.EnObjetivoDestruido += MostrarMenuGameOver;
+        referenciaSpawner.EnOleadaIniciada += ActualizarOla;
+        referenciaSpawner.EnOleadaTerminada += MostrarMensajeUltimoEnemigo;
+        referenciaSpawner.EnOleadaGanada += MostrarMenuOlaGanada;
+        referenciaAdminJuego.EnRecursosModificados += ActualizarRecursos;
+    }
+
+    private void ActualizarRecursos()
+    {
+        textoRecursos.text = $"Recursos: {referenciaAdminJuego.recursos}";
+    }
+
+    private void MostrarMensajeUltimoEnemigo()
+    {
+        mensajeFinOla.SetActive(true);
+        Invoke("OcultarMensajeUltimoEnemigo", 3);
+    }
+
+    private void OcultarMensajeUltimoEnemigo()
+    {
+        mensajeFinOla.SetActive(false);
+    }
+
+    private void MostrarMenuOlaGanada()
+    {
+        textoEnemigos.text = $"ENEMIGOS: \t {referenciaAdminJuego.enemigosBaseDerrotados}";
+        textoJefes.text = $"JEFES: \t\t {referenciaAdminJuego.enemigosJefeDerrotados}";
+        menuOlaGanada.SetActive(true);
+    }
+
+    private void ActualizarOla()
+    {
+        textoOleada.text = $"Ola: {referenciaSpawner.oleada}";
+        OcultarMenuOlaGanada();
+    }
+
+    private void OcultarMenuOlaGanada()
+    {
+        menuOlaGanada.SetActive(false);
     }
 
     private void OnDisable()
     {
         referenciaObjetivo.EnObjetivoDestruido -= MostrarMenuGameOver;
+        referenciaSpawner.EnOleadaIniciada -= ActualizarOla;
+        referenciaSpawner.EnOleadaTerminada -= MostrarMensajeUltimoEnemigo;
+        referenciaSpawner.EnOleadaGanada -= MostrarMenuOlaGanada;
+        referenciaAdminJuego.EnRecursosModificados -= ActualizarRecursos;
     }
 
     public void MostrarMenuFinOleada()
