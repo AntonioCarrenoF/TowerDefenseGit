@@ -34,6 +34,7 @@ Transform:
   m_Children:
   - {fileID: 9064013808826865730}
   - {fileID: 1753730819957753495}
+  - {fileID: 6343242729278868671}
   m_Father: {fileID: 5734721962807499694}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7520339862353802804
@@ -225,6 +226,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5734721962807499694}
+  - component: {fileID: 7753453685196229236}
   m_Layer: 0
   m_Name: Torre1
   m_TagString: Untagged
@@ -249,6 +251,53 @@ Transform:
   - {fileID: 2238490685008749486}
   - {fileID: 489164495582036453}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7753453685196229236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767715741479011615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65285906cb48348b5af3f19fa19e5f46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigo: {fileID: 0}
+  prefabBala: {fileID: 3546672708874381173, guid: c2aa58123670d4a948997a160d08ff55, type: 3}
+  puntasCanon:
+  - {fileID: 3837885438541091355}
+--- !u!1 &3837885438541091355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6343242729278868671}
+  m_Layer: 0
+  m_Name: PuntaCanon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6343242729278868671
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3837885438541091355}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.5799999, z: 2.9142861}
+  m_LocalScale: {x: 1.4285715, y: 1, z: 1.4285719}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 489164495582036453}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4077387529026350351
 GameObject:

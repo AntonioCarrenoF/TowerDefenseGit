@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: character-4
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 406dde93a8ed344e48a8b0b691740d51, type: 3}
+      propertyPath: m_TagString
+      value: Enemigo
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 406dde93a8ed344e48a8b0b691740d51, type: 3}
       propertyPath: m_Avatar
       value: 
@@ -109,6 +113,10 @@ MonoBehaviour:
   objetivo: {fileID: 0}
   vida: 100
   anim: {fileID: 0}
+  _dano: 5
+  recursosGanados: 200
+  referenciaAdminJuego: {fileID: 0}
+  referenciaSpawner: {fileID: 0}
 --- !u!195 &3347463052607066611
 NavMeshAgent:
   m_ObjectHideFlags: 0

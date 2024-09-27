@@ -3070,10 +3070,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1366, y: 768}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -3993,10 +3993,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1366, y: 768}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -5185,6 +5185,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   referenciaAdminToques: {fileID: 737830177}
+  referenciaAdminJuego: {fileID: 1294875132}
+  referenciaSpawner: {fileID: 932115552}
+  objetivo: {fileID: 267533799}
   torreSeleccionada: 0
   prefabsTorres:
   - {fileID: 767715741479011615, guid: ee1398debb02147dd8f3a9b4cf29927a, type: 3}
@@ -5192,6 +5195,7 @@ MonoBehaviour:
   - {fileID: 4970124901014195571, guid: 6afa3d12bebcf4293873a947409c1b23, type: 3}
   - {fileID: 5476308328075542044, guid: a12aaff0bfbe44677a70f006015f8075, type: 3}
   - {fileID: 6951370857017106117, guid: f887288c81a454148ba493a3dbab5e1c, type: 3}
+  torresInstanciadas: []
 --- !u!1 &940001777
 GameObject:
   m_ObjectHideFlags: 0
@@ -5466,10 +5470,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1366, y: 768}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -5954,6 +5958,30 @@ MonoBehaviour:
       - m_Target: {fileID: 932115552}
         m_TargetAssemblyTypeName: SpawnerEnemigos, Assembly-CSharp
         m_MethodName: EmpezarOleada
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 710798386}
+        m_TargetAssemblyTypeName: AdministradorUI, Assembly-CSharp
+        m_MethodName: OcultarMenuOlaGanada
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1294875132}
+        m_TargetAssemblyTypeName: AdminJuego, Assembly-CSharp
+        m_MethodName: ResetValores
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6687,7 +6715,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemigosBaseDerrotados: 0
   enemigosJefeDerrotados: 0
-  recursos: 0
+  recursos: 1000
 --- !u!4 &1294875133
 Transform:
   m_ObjectHideFlags: 0
