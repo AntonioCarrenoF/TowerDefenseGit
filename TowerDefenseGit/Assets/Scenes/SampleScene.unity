@@ -6715,7 +6715,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemigosBaseDerrotados: 0
   enemigosJefeDerrotados: 0
-  recursos: 1000
+  recursos: 50000
 --- !u!4 &1294875133
 Transform:
   m_ObjectHideFlags: 0
