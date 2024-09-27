@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 13909
+  controlID: 8826
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 13862
+  controlID: 8779
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 13833
+  controlID: 8750
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -263,7 +263,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 8cba0000
     m_LastClickedID: 47756
-    m_ExpandedIDs: ffffffff000000006c600000526e0000826e0000
+    m_ExpandedIDs: ffffffff000000006e6000005c6e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -291,7 +291,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000006c600000526e0000
+    m_ExpandedIDs: ffffffff000000006e6000005c6e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -412,7 +412,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 6627ffff10fbffff26fbffff
+      m_ExpandedIDs: 26fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -520,7 +520,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 13910
+  controlID: 8827
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -619,7 +619,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 13911
+  controlID: 8828
   draggingID: 0
 --- !u!114 &15
 MonoBehaviour:
@@ -737,7 +737,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 25}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar

@@ -19027,7 +19027,7 @@ GameObject:
   - component: {fileID: 1905073871487735954}
   - component: {fileID: 7350269927786386538}
   m_Layer: 0
-  m_Name: Antena
+  m_Name: Antena2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19176,7 +19176,7 @@ MonoBehaviour:
   divisionesRayo: 10
   LRRayo: {fileID: 0}
   puntos: []
-  potenciaRayo: 0
+  potenciaRayo: 10
 --- !u!120 &2941749746217549578
 LineRenderer:
   serializedVersion: 2

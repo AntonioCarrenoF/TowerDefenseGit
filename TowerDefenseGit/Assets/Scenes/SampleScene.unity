@@ -526,7 +526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51cae56bf2f484dedba6c33693beb225, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 100
+  vida: 200
 --- !u!54 &267533805
 Rigidbody:
   m_ObjectHideFlags: 0

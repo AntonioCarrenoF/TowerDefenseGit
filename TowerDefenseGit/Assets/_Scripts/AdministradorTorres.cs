@@ -76,7 +76,7 @@ public class AdministradorTorres : MonoBehaviour
                 }
             }
         }
-        Invoke("ActualizarObjetivo",3);
+        Invoke("ActualizarObjetivo",1);
     }
 
     private void CrearTorre(GameObject plataforma)
@@ -100,6 +100,7 @@ public class AdministradorTorres : MonoBehaviour
             posParaInstanciar.y += 0.5f;
             GameObject torreInstanciada = Instantiate<GameObject>(prefabsTorres[indiceTorre], posParaInstanciar, Quaternion.identity);
             torreInstanciada.transform.SetParent(plataforma.transform);
+            torresInstanciadas.Add(torreInstanciada);
         }
 
      
